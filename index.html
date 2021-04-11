@@ -194,6 +194,16 @@ $(function(){
       return false;
    });
    
+    // スクロール量に応じて出てくるボタン
+    $(window).scroll(function() {
+        var s = $(this).scrollTop();
+        var m = 300;
+        if(s > m) {
+            $("#toTOP").fadeIn('slow');
+        } else if(s < m) {
+            $("#toTOP").fadeOut('slow');
+        }
+    });
    
 });
 </script>
