@@ -204,6 +204,14 @@ $(function(){
             $("#toTOP").fadeOut('slow');
         }
     });
+	
+    // ハンバーガーリンク押すと消える
+    $('#menu li a').on('click', function(){
+	if (window.innerWidth <= 600) {
+		$('.toggle').click();
+	}
+    });
+	
    
 });
 </script>
