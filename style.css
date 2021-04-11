@@ -265,6 +265,7 @@ animation-delay: 20s;
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
+	display: none;
 }
 
 #toTOP a{
