@@ -13,6 +13,7 @@
 <link href="https://kamooooo37.github.io/cafe_ricken2/reset.css" rel="stylesheet">
 <link href="https://kamooooo37.github.io/cafe_ricken2/nav.css" rel="stylesheet">
 <link href="https://kamooooo37.github.io/cafe_ricken2/style.css" rel="stylesheet">
+<link href="https://kamooooo37.github.io/cafe_ricken2/aos.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
@@ -56,7 +57,7 @@
 		</section>
 		
 		<section id="page2">
-			<div class="info">
+			<div data-aos="fade-up" class="info">
 				<h2 class="g-fonts">about</h2>
 				<p>黒を基調にしたシックな店内では、
 				旬を大切にした生ケーキやデザートコースがいただける。<br>
@@ -65,7 +66,7 @@
 				冬季には小豆を挟んだ「オペラ」が登場。<br>
 				日本人の好む食感にあわせて造られている印象のタルト・オ・ショコラやミルフィーユなどの<br>
 				美味しいケーキが揃った素敵なお店です。</p>
-				<div class="icon">
+				<div data-aos="fade-up" class="icon">
 					<div class="insta">
 						<a href="#"><i class="fab fa-instagram fa-3x"></i></a>
 					</div><!--insta-->
@@ -103,7 +104,7 @@
 						<img class="fluid" src="https://kamooooo37.github.io/cafe_ricken2/cake6.jpg" alt="チーズケーキ">
 					</div>
 			</div><!--cake_pic-->
-			<div class="price">
+			<div data-aos="fade-up" class="price">
 				<h2 class="g-fonts">cake</h2>
 				<p>ショートケーキ 500yen</p>
 				<p>チーズケーキ 500yen</p>
@@ -137,7 +138,7 @@
 					<img class="fluid" src="https://kamooooo37.github.io/cafe_ricken2/drink6.jpg" alt="レモンティー">
 				</div>
 			</div><!--drink_pic-->
-			<div class="price">
+			<div data-aos="fade-up" class="price">
 				<h2 class="g-fonts">drink</h2>
 				<p>コーヒー(hot) 250yen</p>
 				<p>コーヒー(iced) 300yen</p>
@@ -154,14 +155,14 @@
 			<div class="line">
 				<img class="fluid" src="https://kamooooo37.github.io/cafe_ricken2/line.png" alt="#">
 			</div><!--line-->
-			<h2 class="g-fonts">access</h2>
+			<h2 data-aos="fade-up" class="g-fonts">access</h2>
 			<div class="access">
 				<div class="gmap-width">
 					<div class="gmap-height">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6561.331433475552!2d135.18878593300548!3d34.68838538043768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008efbd89bef3f%3A0xda6fb2fcc3879f34!2z5Ym16YCg56S-44Oq44Kr44Os44Oz44OI44K544Kv44O844Or5LiJ5a6u5qCh!5e0!3m2!1sja!2sjp!4v1614051269555!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div><!--gmap-height-->
 				</div><!--gmap-width-->
-				<div class="adress">
+				<div data-aos="fade-up" class="adress">
 					<p>京都府京都市中京区堺町通錦小路上ル菊屋町1234－5678</p>
 					<p><a href="tel:012-345-6789" ontouchstart="">012-345-6789</a></p>
 					<p>open 11:00～19:00</p>
@@ -214,6 +215,16 @@ $(function(){
 	
    
 });
+</script>
+<!--アニメーション-->
+<script src="https://kamooooo37.github.io/cafe_ricken2/aos.js"></script>
+<script>
+	AOS.init({
+		offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+	});
 </script>
 </body>
 </html>
